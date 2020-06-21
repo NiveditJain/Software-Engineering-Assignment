@@ -29,6 +29,15 @@ class TestGenerateReciept(unittest.TestCase):
 
 
 
+
+    # must have only 10 keys
+    def test_number_of_keys(self):
+        reciept=GenerateReciept("10010010")
+        self.assertEqual(10,len(reciept.response))
+
+
+
+
     # check that designation must among some
     def test_designation(self):
         reciept=GenerateReciept("10010010")

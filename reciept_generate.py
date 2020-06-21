@@ -8,7 +8,7 @@ class GenerateReciept():
     # constructor for Class
     def __init__(self,reciept_number):
         self.reciept_number=reciept_number
-        self.request_link="https://mathrithms.github.io/reciept/"+reciept_number+".json"
+        self.request_link="https://niveditjain.github.io/reciept/"+reciept_number+".json"
         self.response=json.loads(requests.get(self.request_link).text)
 
     def export(self):
