@@ -116,6 +116,14 @@ class TestGenerateReciept(unittest.TestCase):
 
 
 
+    # name must not contain any number
+    def test_name(self):
+        reciept=GenerateReciept("10010010")
+        numbers=sum(char.isdigit() for char  in reciept.response["name"])
+        self.assertEqual(0,numbers)
+
+    
+
 # test case runner
 if __name__ == '__main__':
     unittest.main()

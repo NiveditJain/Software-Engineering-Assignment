@@ -37,3 +37,9 @@ class GenerateReciept():
         d.text((640, 575), self.response["currency"], fill = text_color, font = font)
 
         im.save("reciept_"+self.response["reciept_number"]+".pdf")
+
+
+if __name__ == '__main__':
+    id=input("Enter Student ID :: ")
+    reciept=GenerateReciept(id)
+    reciept.export()
