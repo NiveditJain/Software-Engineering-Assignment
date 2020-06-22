@@ -2,6 +2,8 @@ from reciept_generate import GenerateReciept
 import unittest
 import os
 
+
+# testing class
 class TestGenerateReciept(unittest.TestCase):
 
 
