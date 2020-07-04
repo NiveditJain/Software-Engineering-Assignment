@@ -1,5 +1,5 @@
 # Software Engineering Assignment (Unit Testing) (Request Reciept Processing Use Case)
-This Repository contains by Solution of Software Engineering Assignment By Dr. Suman Kundu (IIT Jodhpur)
+This Repository contains my Solution of Software Engineering Assignment By Dr. Suman Kundu (IIT Jodhpur)
 
 ## Assumptions
 1 - An api is already made which will provide the data in json format to generate recipt. <br>
